@@ -6,3 +6,5 @@ class Employees:
       self.email = email
       self.pay_rate = pay_rate
       
+    def get_pay_rate(self) -> float:
+        return self.pay_rate

@@ -5,5 +5,8 @@ class Bleach:
         self.percentage = percentage
         self.price_per_gallon = price_per_gallon
 
-
-    
+    def get_percentage(self) -> int:
+        return self.percentage
+   
+    def get_price_per_gallon(self) -> float:
+        return self.price_per_gallon
