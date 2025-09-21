@@ -24,7 +24,84 @@ class Jobs:
         self.employees = employees
         self.untreated_wood = untreated_wood
         
-        
+    def get_company_costs(self) -> float:
+        return self.company_costs
+
+    def get_type(self) -> str:
+        return self.type
+
+    def set_type(self, type: str) -> None:
+        self.type = type
+    
+    def get_levels(self) -> int:
+        return self.levels
+
+    def set_levels(self, levels: int) -> None:
+        self.levels = levels
+
+    def get_hard_sqft(self) -> float:
+        return self.hard_sqft
+    
+    def set_hard_sqft(self, hard_sqft: float) -> None:
+        self.hard_sqft = hard_sqft
+
+    def get_soft_surfaces(self,) -> int:
+        return self.soft_surfaces
+    
+    def set_soft_surfaces(self, soft_surfaces: int) -> None:
+        self.soft_surfaces = soft_surfaces
+    
+    def get_siding(self) -> str:
+        return self.siding
+    
+    def set_siding(self, siding: str) -> None:
+        self.siding
+
+    def get_roofing(self) -> str:
+        return self.roofing
+
+    def set_roofing(self, roofing: str) -> None:
+        self.roofing    
+
+    def get_notes(self) -> str:
+        return self.notes
+    
+    def set_notes(self, notes: str) -> None:
+        self.notes
+
+    def get_bleach(self) -> int:
+        return self.bleach
+    
+    def set_bleach(self, bleach: int) -> None:
+        self.bleach
+
+    def get_client(self) -> client:
+        return self.client
+    
+    def set_client(self, client: client) -> None:
+        self.client
+
+    def get_employees(self) -> list:
+        return self.employees
+    
+    def set_employees(self, employees: list) -> None:
+                      self.employees
+
+    def get_untreated_wood(self) -> bool:
+         return self.untreated_wood
+    
+    def set_untreated_wood(slef, untreated_wood: bool) -> None:
+         self.untreated_wood
+
+
+    
+
+    
+
+    
+   
+   
+   
     def customer_pricing(self,):
         
         hard_wash_price = 0.5 * self.hard_sqft
