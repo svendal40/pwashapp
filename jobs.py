@@ -26,6 +26,9 @@ class Jobs:
         
     def get_company_costs(self) -> float:
         return self.company_costs
+    
+    def set_company_costs(self, company_costs: int) -> None:
+         self.company_costs = company_costs
 
     def get_type(self) -> str:
         return self.type
@@ -55,43 +58,43 @@ class Jobs:
         return self.siding
     
     def set_siding(self, siding: str) -> None:
-        self.siding
+        self.siding = siding
 
     def get_roofing(self) -> str:
         return self.roofing
 
     def set_roofing(self, roofing: str) -> None:
-        self.roofing    
+        self.roofing = roofing 
 
     def get_notes(self) -> str:
         return self.notes
     
     def set_notes(self, notes: str) -> None:
-        self.notes
+        self.notes = notes
 
     def get_bleach(self) -> int:
         return self.bleach
     
     def set_bleach(self, bleach: int) -> None:
-        self.bleach
+        self.bleach = bleach
 
-    def get_client(self) -> client:
+    def get_client(self) -> str:
         return self.client
     
-    def set_client(self, client: client) -> None:
-        self.client
+    def set_client(self, client: str) -> None:
+        self.client = client
 
     def get_employees(self) -> list:
         return self.employees
     
     def set_employees(self, employees: list) -> None:
-                      self.employees
+        self.employees = employees
 
     def get_untreated_wood(self) -> bool:
          return self.untreated_wood
     
-    def set_untreated_wood(slef, untreated_wood: bool) -> None:
-         self.untreated_wood
+    def set_untreated_wood(self, untreated_wood: bool) -> None:
+         self.untreated_wood = untreated_wood
 
 
     
